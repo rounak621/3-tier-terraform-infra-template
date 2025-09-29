@@ -12,6 +12,11 @@ Reusable Terraform template to deploy a 3-tier app infrastructure on AWS.
 - **Infrastructure as Code**: Fully managed via Terraform, enabling version-controlled, repeatable, and auditable infrastructure deployments.
 
 
+## 🏗️ Infrastructure Architecture
+
+![3-Tier Infra Architecture](infra-architecture.png)
+
+
 ```text
 infra-app/
 │   ├── ec2/
