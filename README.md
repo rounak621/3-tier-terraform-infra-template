@@ -18,7 +18,6 @@ infra-app/
 ├── main.tf
 ├── variables.tf
 
-
 ## 🔹 SSH Key Pair
 Generate a key pair to use for all environments:
 
