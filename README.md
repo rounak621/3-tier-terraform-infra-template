@@ -32,7 +32,7 @@ infra-app/
 ## 🔹 SSH Key Pair
 Generate a key pair to use for all environments:
 
-<pre> ```ssh-keygen -t rsa -b 2048 -f infra-app-key ``` </pre>
+<pre> ssh-keygen -t rsa -b 2048 -f terra-key-ec2 </pre>
 
 #Add the public key to AWS Key Pair.
 
