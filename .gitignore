@@ -1,19 +1,6 @@
-# Terraform state files
+.terraform/
 *.tfstate
 *.tfstate.backup
-
-# Terraform directories
-.terraform/
-
-# Terraform lock file
 .terraform.lock.hcl
-
-# Sensitive keys
-*.pem
 terra-key-ec2
 terra-key-ec2.pub
-
-# OS / Editor files (optional)
-*.log
-*.swp
-.DS_Store
