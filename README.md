@@ -9,7 +9,7 @@ Reusable Terraform template to deploy a 3-tier app infrastructure on AWS.
 - Modular design for reusability
 - Single SSH key pair for all environments
 
-## 🔹 Project Structure
+```text
 infra-app/
 ├── modules/
 │ ├── ec2/
@@ -17,6 +17,8 @@ infra-app/
 │ └── dynamodb/
 ├── main.tf
 ├── variables.tf
+├── outputs.tf
+```
 
 ## 🔹 SSH Key Pair
 Generate a key pair to use for all environments:
